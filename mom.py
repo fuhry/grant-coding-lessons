@@ -23,8 +23,11 @@ things_to_say = [
 # q2: what does "len" mean? (hint: it's the first half of a word)
 number_of_things = len(things_to_say)
 # q3: what are all the possible numbers that can be returned by randrange here?
+#     hint: google search for "python randrange" and read the instructions for
+#     the randrange function online.
 index = randrange(0, number_of_things)
 # q4: what type of data is stored in "line"?
+#     hint: it's one of: integer, string, list, tuple
 line = things_to_say[index]
 
 print(line)
