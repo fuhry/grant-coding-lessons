@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+# Virtual Mom.
+# Concepts covered:
+#   - Integers and strings
+#   - Lists
+#   - Modules and importing
+#   - Variables
 from random import randrange
 
 things_to_say = [
